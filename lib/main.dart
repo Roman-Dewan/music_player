@@ -8,6 +8,7 @@ import 'package:music_player/app/config/app_config.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await di.init();
+  await AppTheme.initTheme();
   runApp(const MyApp());
 }
 

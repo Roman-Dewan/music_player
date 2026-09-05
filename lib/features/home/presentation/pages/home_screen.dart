@@ -32,9 +32,9 @@ class _HomeScreenState extends State<HomeScreen> {
                   IconButton(
                     onPressed: () {
                       if (Theme.of(context).brightness == Brightness.dark) {
-                        AppTheme.themeNotifier.value = ThemeMode.light;
+                        AppTheme.toggleTheme(ThemeMode.light);
                       } else {
-                        AppTheme.themeNotifier.value = ThemeMode.dark;
+                        AppTheme.toggleTheme(ThemeMode.dark);
                       }
                     },
                     icon: Icon(
