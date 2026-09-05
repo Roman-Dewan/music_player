@@ -1,4 +1,4 @@
-package com.example.learn_go_router
+package com.example.flutter_app_template
 
 import io.flutter.embedding.android.FlutterActivity
 
