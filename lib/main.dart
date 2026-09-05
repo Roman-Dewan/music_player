@@ -10,11 +10,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Feature First Clean Architecture',
+      title: 'Flutter App Template',
       theme: ThemeData(
         colorScheme: .fromSeed(seedColor: Colors.blue),
       ),
-      
+
     );
   }
 }
