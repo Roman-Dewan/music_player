@@ -1,8 +1,8 @@
 import 'package:go_router/go_router.dart';
-import 'package:learn_go_router/features/auth/presentation/pages/login_screen.dart';
+import 'package:flutter_app_template/features/auth/presentation/pages/login_screen.dart';
 
-import 'package:learn_go_router/features/home/presentation/pages/home_screen.dart';
-import 'package:learn_go_router/features/auth/presentation/pages/splash_screen.dart';
+import 'package:flutter_app_template/features/home/presentation/pages/home_screen.dart';
+import 'package:flutter_app_template/features/auth/presentation/pages/splash_screen.dart';
 
 // GoRouter configuration
 final appRouter = GoRouter(

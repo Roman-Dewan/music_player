@@ -1,5 +1,5 @@
 import 'package:get_it/get_it.dart';
-import 'package:learn_go_router/core/network/dio_client.dart';
+import 'package:flutter_app_template/core/network/dio_client.dart';
 
 final sl = GetIt.instance;
 
