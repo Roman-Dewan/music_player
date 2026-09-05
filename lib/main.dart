@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app_template/app/router/app_router.dart';
-import 'package:flutter_app_template/core/di/injection.dart' as di;
-import 'package:flutter_app_template/app/theme/app_theme.dart';
-import 'package:flutter_app_template/app/config/app_config.dart';
+import 'package:music_player/app/router/app_router.dart';
+import 'package:music_player/core/di/injection.dart' as di;
+import 'package:music_player/app/theme/app_theme.dart';
+import 'package:music_player/app/config/app_config.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
