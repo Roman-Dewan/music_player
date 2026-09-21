@@ -31,6 +31,10 @@ class AppTheme {
       colorScheme: const ColorScheme.light(
         surface: AppColors.lightBackground,
         onSurface: AppColors.lightText,
+        surfaceContainer: Color(0xFFF5F5F5),
+        surfaceContainerHighest: Color(0xFFE0E0E0),
+        primaryContainer: Color(0xFFFFD1DC),
+        onPrimaryContainer: Colors.black,
       ),
       textTheme: Typography.material2021(platform: TargetPlatform.android).black
           .apply(
@@ -48,6 +52,10 @@ class AppTheme {
       colorScheme: const ColorScheme.dark(
         surface: AppColors.darkBackground,
         onSurface: AppColors.darkText,
+        surfaceContainer: Color(0xFF1E1E1E),
+        surfaceContainerHighest: Color(0xFF333333),
+        primaryContainer: Color(0xFF5A2A3A),
+        onPrimaryContainer: Colors.white,
       ),
       textTheme: Typography.material2021(platform: TargetPlatform.android).white
           .apply(
